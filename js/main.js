@@ -68,3 +68,17 @@ document.getElementById("resume-button-1").onclick = () => {
 // document.getElementById("resume-button-2").onclick = () => {
 //     location.assign("https://drive.google.com/file/d/1Q8h7n7NZzntb8nKXSRGrFnjtI7HxaKXs/view?usp=share_link");
 // }
+
+
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .skills-container, .project-card, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1', { origin: 'left' });
+ScrollReveal().reveal('.home-content p, .about-content', { origin: 'left' });
+const typed = new Typed('.multiple-text', {
+    strings: ['Full Stack Web Developer', 'Backend Developer with NodeJS', 'Problem Solver'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true,
+    smartBackspace: true, // Enables smart backspacing to simulate typing forward and backward
+});

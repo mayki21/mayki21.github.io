@@ -94,6 +94,9 @@
     .project-description {
         font-size: var(--smaller-font);
     }
+    section{
+        display: block;
+    }
 
 }
 
