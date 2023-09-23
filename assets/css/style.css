@@ -519,6 +519,8 @@
     flex-wrap: wrap;
     gap: 1rem;
     margin-bottom: 20px;
+    padding: 0px 15px 0px 15px;
+    /* border: 1px solid black ; */
 }
 
 .project-tech-stack>span {
